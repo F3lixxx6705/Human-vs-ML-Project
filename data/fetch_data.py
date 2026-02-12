@@ -12,3 +12,7 @@ print(mushroom.metadata)
   
 # variable information 
 print(mushroom.variables) 
+
+plt.scatter(mushroom["gillsize"], mushroom["spacing"])
+plt.show()
+plt.savefig('chart_1.png')
