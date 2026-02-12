@@ -1,5 +1,5 @@
 from ucimlrepo import fetch_ucirepo 
-  
+import matplotlib as plt
 # fetch dataset 
 mushroom = fetch_ucirepo(id=73) 
   
