@@ -1,4 +1,6 @@
-from ucimlrepo import fetch_ucirepo 
+from ucimlrepo import fetch_ucirepo
+import pandas as pd
+import matplotlib.pyplot as plt
   
 # fetch dataset 
 mushroom = fetch_ucirepo(id=73) 
@@ -12,3 +14,6 @@ print(mushroom.metadata)
   
 # variable information 
 print(mushroom.variables) 
+
+
+# plt.plot(mushroom["name"], mushroom["name"])
