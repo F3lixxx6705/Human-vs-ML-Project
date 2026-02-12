@@ -15,5 +15,6 @@ print(mushroom.metadata)
 # variable information 
 print(mushroom.variables) 
 
-
-# plt.plot(mushroom["name"], mushroom["name"])
+plt.scatter(mushroom["gillsize"], mushroom["spacing"])
+plt.show()
+plt.savefig('chart_1.png')
