@@ -13,7 +13,6 @@ print(mushroom.metadata)
 # variable information 
 print(mushroom.variables) 
 
-plt.figure()
-plt.scatter("poisonous", "veil-type")
+plt.scatter(mushroom.gillsize, mushroom.gillspacing)
 plt.show()
 plt.savefig('chart_1.png')
